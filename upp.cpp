@@ -2,15 +2,17 @@
 using namespace std;
 
 int main(){
+
+  // To find the charcter is in uppercase or lowercase....
   char ch;
   cout<<"Enter the character ";
   cin>>ch;
 
-  if(ch >='a' && ch <= 'z'){
-    cout<<"lowercase";
+  if(ch >='A' && ch <= 'Z'){
+    cout<<"Uppercase";
   }
   esle{
-    cout<<"uppercase";
+    cout<<"Lowercase";
 }
   return 0;
 }
