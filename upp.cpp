@@ -8,7 +8,7 @@ int main(){
   cout<<"Enter the character ";
   cin>>ch;
 
-  if(ch >='A' && ch <= 'Z'){
+  if(ch >='A' && ch <= 'Z'){   // also we can find with this if(ch >= 65 && ch <= 90)
     cout<<"Uppercase";
   }
   esle{
