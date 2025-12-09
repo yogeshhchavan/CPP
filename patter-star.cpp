@@ -45,3 +45,34 @@ int main(){
 // 4 4 4 4
 // 5 5 5 5 5
 // 6 6 6 6 6 6
+
+
+
+
+#include<iostream.h>
+using namespace std;
+
+int main(){
+   int n =6;
+char ch = 'A';
+    for(int i =0; i<=n; i++){
+        for(int j =0; j<=i;j++){
+            cout<<ch;
+            
+        }
+        cout<<endl;
+        ch = ch+1;
+    }
+return 0;
+}
+
+//output ...................................
+//    A  
+//    BB
+//    CCC
+//    DDDD
+//    EEEEE
+//    FFFFFF
+//    GGGGGGG
+
+
